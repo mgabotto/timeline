@@ -4,27 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SCSS compiled -->
     <link rel="stylesheet" href="./style.css">
+
+    <!-- Animate On Scroll Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <title>Personal Timeline</title>
 </head>
 
 <body>
 
     <main>
-        <div class="line"></div>
-        <div class="etapa">
-            <div class="left-card">
-                <h3>introducción a la programación</h3>
-                <p>Cursos en academias online por curiosidad:
-                <ul>Introducción HTML5 y CSS3</ul>
-                <ul>Python para no programadores</ul>
-                <ul>Introducción JAVA</ul>
-                </p>
+        <div class="etapasContainer">
+            <div class="mainLine"></div>
+            <div class="etapa left" data-aos="zoom-in" data-aos-duration="800">
+                <div class="left-card">
+                    <h3>introducción a la programación</h3>
+                    <p>Cursos en academias online por curiosidad:
+                    <ul>Introducción HTML5 y CSS3</ul>
+                    <ul>Python para no programadores</ul>
+                    <ul>Introducción JAVA</ul>
+                    </p>
+                </div>
+                <div class="date">JULIO/AGOSTO 2020</div>
+                <div class="circle"></div>
             </div>
-            <div class="circle"></div>
-            <div class="date">JULIO/AGOSTO 2020</div>
+            <div class="etapa " data-aos="zoom-in" data-aos-duration="800">
+                <div class="date rightDate">SEPTIEMBRE 2020</div>
+                <div class="right-card">
+                    <h3>Inicio de educación autodidacta</h3>
+                    <p>Camino elegido: Front End</p>
+                    <p class="tecnologia">HTML5 y CSS3</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="etapa left" data-aos="zoom-in" data-aos-duration="800">
+                <div class="left-card">
+                    <h3>Primer lenguaje de programación</h3>
+                    <p class="tecnologia">JavaScript</p>
+                </div>
+                <div class="date">OCTUBRE/DICIEMBRE 2020</div>
+                <div class="circle"></div>
+            </div>
+            <div class="etapa" data-aos="zoom-in" data-aos-duration="800">
+                <div class="date">DICIEMBRE 2020</div>
+                <div class="right-card">
+                    <h3>Inicio de educación autodidacta</h3>
+                    <p>Camino elegido: Front End</p>
+                    <p class="tecnologia">HTML5 y CSS3</p>
+                </div>
+                <div class="circle"></div>
+            </div>
+            <div class="etapa left" data-aos="zoom-in" data-aos-duration="800">
+                <div class="left-card">
+                    <h3>introducción a la programación</h3>
+                    <p>Cursos en academias online por curiosidad:
+                    <ul>Introducción HTML5 y CSS3</ul>
+                    <ul>Python para no programadores</ul>
+                    <ul>Introducción JAVA</ul>
+                    </p>
+                </div>
+                <div class="date">ENERO 2021</div>
+                <div class="circle"></div>
+            </div>
+
         </div>
+
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

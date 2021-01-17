@@ -1,5 +1,6 @@
 // FONTS
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;300;500;600&display=swap');
 
 
 // COLORS
@@ -9,11 +10,14 @@ $secondary-color: green;
 $bg-color: brown;
 
 // TYPOGRAPHY
-$typography-main: 'Roboto', sans-serif;
+// $typography-main: 'Roboto', sans-serif;
+$typography-main: 'Saira', sans-serif;
 
 
 
 // CARD
 $cd-color: white;
 $cd-title-size: 2.5rem;
-$cd-text-size: 1.8rem;
+$cd-text-size: 1.6rem;
+$cd-textImportant-size: 2.4rem;
+$date-text-size: 2.5rem;
