@@ -1,23 +1,20 @@
 // FONTS
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;300;500;600&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;300;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 // COLORS
-$main-color: #92E9D4;
-$primary-color: red;
-$secondary-color: green;
-$bg-color: brown;
+$main-color: #e7f1ef;
+$primary-color: rgb(255, 255, 255);
+$secondary-color: rgb(20, 19, 19);
+$bg-secondary: rgb(238, 113, 113);
 
 // TYPOGRAPHY
-// $typography-main: 'Roboto', sans-serif;
-$typography-main: 'Saira', sans-serif;
-
-
+$typography-main: "Roboto", sans-serif;
+// $typography-main: "Saira", sans-serif;
 
 // CARD
-$cd-color: white;
-$cd-title-size: 2.5rem;
+$cd-color: rgb(0, 0, 0);
+$cd-title-color: white;
+$cd-title-size: 2.1rem;
 $cd-text-size: 1.6rem;
 $cd-textImportant-size: 2.4rem;
 $date-text-size: 2.5rem;
